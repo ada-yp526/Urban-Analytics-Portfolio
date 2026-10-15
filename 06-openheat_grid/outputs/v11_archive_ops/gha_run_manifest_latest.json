@@ -1,8 +1,8 @@
 {
-  "run_id": "gha_20261014_224334Z",
-  "scheduled_at_utc": "2026-10-14T22:43:34Z",
-  "started_at_utc": "2026-10-14T22:43:34Z",
-  "completed_at_utc": "2026-10-14T22:48:47Z",
+  "run_id": "gha_20261015_055213Z",
+  "scheduled_at_utc": "2026-10-15T05:52:12Z",
+  "started_at_utc": "2026-10-15T05:52:13Z",
+  "completed_at_utc": "2026-10-15T05:57:23Z",
   "source": "gha",
   "exit_code": 0,
   "rows_fetched": 30,
@@ -41,10 +41,10 @@
     "S910"
   ],
   "warnings": [
-    "openmeteo station_S139: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=35)\"))",
-    "openmeteo station_S151: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=35)\"))"
+    "openmeteo station_S141: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=35)\"))",
+    "openmeteo station_S187: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=35)\"))"
   ],
   "api_status": "warn",
-  "commit_sha": "3a47be6a065d559555864f31124cf60f8fcce7fe",
-  "chunk_path": "data/calibration/v11/live_chunks/wbgt_pairs_2026-10-14.csv.gz"
+  "commit_sha": "04c20da293dc134c4840051bd006ad79bd014a7f",
+  "chunk_path": "data/calibration/v11/live_chunks/wbgt_pairs_2026-10-15.csv.gz"
 }
