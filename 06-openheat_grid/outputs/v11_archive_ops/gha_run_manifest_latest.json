@@ -1,8 +1,8 @@
 {
-  "run_id": "gha_20261115_104421Z",
-  "scheduled_at_utc": "2026-11-15T10:44:21Z",
-  "started_at_utc": "2026-11-15T10:44:21Z",
-  "completed_at_utc": "2026-11-15T10:49:33Z",
+  "run_id": "gha_20261115_172813Z",
+  "scheduled_at_utc": "2026-11-15T17:28:13Z",
+  "started_at_utc": "2026-11-15T17:28:13Z",
+  "completed_at_utc": "2026-11-15T17:28:34Z",
   "source": "gha",
   "exit_code": 0,
   "rows_fetched": 30,
@@ -40,11 +40,8 @@
     "S187",
     "S910"
   ],
-  "warnings": [
-    "openmeteo station_S141: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=35)\"))",
-    "openmeteo station_S187: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='api.open-meteo.com', port=443): Read timed out. (read timeout=35)\"))"
-  ],
-  "api_status": "warn",
-  "commit_sha": "63c323c87f28787435a5cc611c6eaa7b67c0935a",
+  "warnings": [],
+  "api_status": "ok",
+  "commit_sha": "0bdaad45df961c98edfe9b47c0c8c9feda2a546a",
   "chunk_path": "data/calibration/v11/live_chunks/wbgt_pairs_2026-11-15.csv.gz"
 }
