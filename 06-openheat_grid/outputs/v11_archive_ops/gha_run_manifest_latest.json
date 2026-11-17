@@ -1,8 +1,8 @@
 {
-  "run_id": "gha_20261117_111522Z",
-  "scheduled_at_utc": "2026-11-17T11:15:22Z",
-  "started_at_utc": "2026-11-17T11:15:22Z",
-  "completed_at_utc": "2026-11-17T11:15:42Z",
+  "run_id": "gha_20261117_195620Z",
+  "scheduled_at_utc": "2026-11-17T19:56:20Z",
+  "started_at_utc": "2026-11-17T19:56:20Z",
+  "completed_at_utc": "2026-11-17T19:56:42Z",
   "source": "gha",
   "exit_code": 0,
   "rows_fetched": 30,
@@ -42,6 +42,6 @@
   ],
   "warnings": [],
   "api_status": "ok",
-  "commit_sha": "c734e139ff749ba3baa4d04c9c5115097210db7d",
+  "commit_sha": "987d76337b865506c3456cd0043e64cd0970fd73",
   "chunk_path": "data/calibration/v11/live_chunks/wbgt_pairs_2026-11-17.csv.gz"
 }
