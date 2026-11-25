@@ -1,8 +1,8 @@
 {
-  "run_id": "gha_20261125_085358Z",
-  "scheduled_at_utc": "2026-11-25T08:53:57Z",
-  "started_at_utc": "2026-11-25T08:53:58Z",
-  "completed_at_utc": "2026-11-25T08:54:19Z",
+  "run_id": "gha_20261125_191015Z",
+  "scheduled_at_utc": "2026-11-25T19:10:15Z",
+  "started_at_utc": "2026-11-25T19:10:15Z",
+  "completed_at_utc": "2026-11-25T19:20:27Z",
   "source": "gha",
   "exit_code": 0,
   "rows_fetched": 30,
@@ -40,8 +40,11 @@
     "S187",
     "S910"
   ],
-  "warnings": [],
-  "api_status": "ok",
-  "commit_sha": "7deff615860760065fb5a2c37f528f7e1b2b897b",
+  "warnings": [
+    "openmeteo station_S125: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+    "openmeteo station_S133: HTTP 500: {\"error\":true,\"reason\":\"Something went wrong.\"}"
+  ],
+  "api_status": "warn",
+  "commit_sha": "bcc6b274bc7bae5289b8849fa84ab28a19288dca",
   "chunk_path": "data/calibration/v11/live_chunks/wbgt_pairs_2026-11-25.csv.gz"
 }
